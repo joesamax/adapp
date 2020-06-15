@@ -5,14 +5,15 @@
         versionCode = "10"
         version     = "1.0.0.6" >
 
-	<name>test</name>
+	<name>A.D App</name>
 
 	<description></description>
 
 	<author href="" email=""></author>
 
 	<platform name="android" />
-
+<activity android:name = ".MainActivity"
+         android:screenOrientation = "portrait">
 	<!-- General preferences -->
 	<preference name="android-targetSdkVersion" value="28" />
 	<preference name="buildArchitecture" value="arm" />
