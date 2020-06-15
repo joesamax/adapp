@@ -12,8 +12,7 @@
 	<author href="" email=""></author>
 
 	<platform name="android" />
-<activity android:name = ".MainActivity"
-         android:screenOrientation = "portrait">
+        <android:screenOrientation="landscape" />
 	<!-- General preferences -->
 	<preference name="android-targetSdkVersion" value="28" />
 	<preference name="buildArchitecture" value="arm" />
