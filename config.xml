@@ -12,7 +12,7 @@
 	<author href="" email=""></author>
 
 	<platform name="android" />
-        <android:screenOrientation="portrait" />
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 	<!-- General preferences -->
 	<preference name="android-targetSdkVersion" value="28" />
 	<preference name="buildArchitecture" value="arm" />
