@@ -12,7 +12,7 @@
 	<author href="" email=""></author>
 
 	<platform name="android" />
-        <android:screenOrientation="landscape" />
+        <android:screenOrientation="portrait" />
 	<!-- General preferences -->
 	<preference name="android-targetSdkVersion" value="28" />
 	<preference name="buildArchitecture" value="arm" />
